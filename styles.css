@@ -1,0 +1,167 @@
+body{
+    background-image: url("./images/bg.jpg");
+    color: white;
+}
+
+/* .container{
+    background-color: red;
+}
+*/
+.test {
+    background-color: red;
+} 
+
+.fa-circle{
+    font-size: 8px;
+}
+
+.fa-ellipsis-v{
+    font-size: 24px;
+}
+/* 
+.btn{
+    display: inline-flex;
+} */
+
+.skateboarders-tag{
+    background: red;
+    padding: 1rem;
+    width: 10vw;
+    position: absolute;
+    left: 0%;   
+}
+
+.skateboarders-tag::after{
+    content: '';
+    border-left: 20px solid green;
+    border-top: 20x solid transparent;
+    border-bottom: 20px solid transparent;
+    top: 0%;
+    right:-30%;
+}
+
+img {
+    width: 100%;
+}
+
+
+.logo-composite{
+    position: relative;
+    border: solid 10px white;
+}
+#top-image-z0 {
+    height: 25vh;
+    object-fit: cover;
+    object-position: 100% 35%;
+    
+}
+
+#top-image-z1 {
+    height: 25vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#top-image-z2 {
+    height: 18vh;
+    width: auto;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.article {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: 2px solid black;
+}
+
+.article h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.article button{
+    background: transparent;
+    border: none;
+    text-align: center;
+    color: darkred;
+}
+
+.pic-regular{
+    height: 250px;
+    border: 5px solid white;
+    /* width: 33%; */
+}
+
+.pic-tall-top{
+    height: 250px;
+    /* width: 33%; */
+    object-fit:cover;
+    object-position: top;
+    border: 5px solid white;
+    border-bottom: none;
+}
+.pic-tall-bottom{
+    height: 250px;
+    /* width: 33%; */
+    object-fit:cover;
+    object-position: 0% 72.5%;
+    border: 5px solid white;
+    border-top: none;
+}
+
+.pic-wide{
+    height: 250px;
+    /* width: 66%; */
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.skateboarder-1, .skateboarder-2, .skateboarder-3, .skateboarder-4{
+    position: relative;
+}
+
+.skateboarder-1 h3{
+    position: absolute;
+    /* width: 66%; */
+    top: 50%;
+    /* right: 50%; */
+    left: 33%;
+    color: white;
+}
+
+.skateboarder-2 h3{
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    color: white;
+}
+.skateboarder-3 h3{
+    position: absolute;
+    top: 50%;
+    /* width: 33%; */
+    left: 8%;
+    color: white;
+    object-fit: cover;
+}
+.skateboarder-4 h3{
+    position: absolute;
+    top: 50%;
+    /* width: 33%; */
+    left: 8%;
+    color: white;
+}
+
+.board{
+    /* image-orientation: 90deg; 
+    How does this work?
+    */
+    height: 300px;
+}
+
+.board-designs{
+    background: white;
+}
