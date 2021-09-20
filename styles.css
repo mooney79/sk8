@@ -3,14 +3,6 @@ body{
     color: white;
 }
 
-/* .container{
-    background-color: red;
-}
-*/
-.test {
-    background-color: red;
-} 
-
 .fa-circle{
     font-size: 8px;
 }
@@ -18,10 +10,6 @@ body{
 .fa-ellipsis-v{
     font-size: 24px;
 }
-/* 
-.btn{
-    display: inline-flex;
-} */
 
 .skateboarders-tag{
     background: red;
@@ -33,12 +21,12 @@ body{
 
 .skateboarders-tag::after{
     content: '';
-    border-left: 20px solid green;
-    border-top: 20x solid transparent;
-    border-bottom: 20px solid transparent;
-    /* float: left; */
-    top: 0%;
-    right: 0px;
+    border-top: 28x solid transparent;
+    border-bottom: 28px solid transparent;
+    border-left: 28px solid red;
+    position: absolute;
+    top: 50%;
+    right: -13%;
 }
 
 img {
@@ -50,6 +38,7 @@ img {
     position: relative;
     border: solid 10px white;
 }
+
 #top-image-z0 {
     height: 25vh;
     object-fit: cover;
@@ -157,10 +146,6 @@ img {
 }
 
 .board{
-    /* image-orientation: 90deg flip;  */
-    /* height: 300px; */
-    /* image-orientation: 90deg;     */
-    /* image-orientation: from-image; */
     transform: rotate(90deg);
     width: 300px;
     margin: 0px -150px;
@@ -180,4 +165,19 @@ img {
     .pic-tall-top{
         display: none;
     }
+
+    .board{
+        transform: rotate(0deg);;
+        width: 100%;
+    }
+
+    .board-designs{
+        height: auto;
+    }
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
