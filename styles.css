@@ -36,8 +36,9 @@ body{
     border-left: 20px solid green;
     border-top: 20x solid transparent;
     border-bottom: 20px solid transparent;
+    /* float: left; */
     top: 0%;
-    right:-30%;
+    right: 0px;
 }
 
 img {
@@ -156,12 +157,27 @@ img {
 }
 
 .board{
-    /* image-orientation: 90deg; 
-    How does this work?
-    */
-    height: 300px;
+    /* image-orientation: 90deg flip;  */
+    /* height: 300px; */
+    /* image-orientation: 90deg;     */
+    /* image-orientation: from-image; */
+    transform: rotate(90deg);
+    width: 300px;
+    margin: 0px -150px;
+    object-fit:scale-down;
 }
 
 .board-designs{
     background: white;
+    height: 348px;
+}
+
+@media (max-width: 768px) {
+    .pic-tall-bottom{
+        object-position: center;
+    }
+
+    .pic-tall-top{
+        display: none;
+    }
 }
