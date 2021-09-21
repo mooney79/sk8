@@ -86,9 +86,13 @@ img {
     /* width: 33%; */
 }
 
-.pic-tall-top{
+.pic-tall{
+    height: 500px;
+    border: 5px solid white;
+}
+
+/* .pic-tall-top{
     height: 250px;
-    /* width: 33%; */
     object-fit:cover;
     object-position: top;
     border: 5px solid white;
@@ -96,12 +100,11 @@ img {
 }
 .pic-tall-bottom{
     height: 250px;
-    /* width: 33%; */
     object-fit:cover;
     object-position: 0% 72.5%;
     border: 5px solid white;
     border-top: none;
-}
+} */
 
 .pic-wide{
     height: 250px;
@@ -119,21 +122,21 @@ img {
     /* width: 66%; */
     top: 50%;
     /* right: 50%; */
-    left: 33%;
+    left: 53%;
     color: white;
 }
 
 .skateboarder-2 h3{
     position: absolute;
     top: 55%;
-    left: 8%;
+    left: 12%;
     color: white;
 }
 .skateboarder-3 h3{
     position: absolute;
     top: 50%;
     /* width: 33%; */
-    left: 8%;
+    right: 8%;
     color: white;
     object-fit: cover;
 }
